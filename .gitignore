@@ -1,0 +1,7 @@
+# Project exclude paths
+/01-ioc-preview/target/
+/03-spring-ioc-constructor/target/
+/04-spring-xml-import/target/
+/05-spring-di/target/
+/06-spring-bean-scope/target/
+/07-spring-autowired/target/
