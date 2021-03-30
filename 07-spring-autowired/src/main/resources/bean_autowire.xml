@@ -16,4 +16,11 @@
     <bean id="people" autowire="byType"
           class="com.sylinx.p7.pojo.People"
           p:name="zj7"/>
+
+
+    <bean id="catAuto" class="com.sylinx.p7.pojo.autowiretest.CatAuto"/>
+    <bean id="dogAuto" class="com.sylinx.p7.pojo.autowiretest.DogAuto"/>
+    <bean id="catAuto1" class="com.sylinx.p7.pojo.autowiretest.CatAuto"/>
+    <bean id="dogAuto1" class="com.sylinx.p7.pojo.autowiretest.DogAuto"/>
+    <bean id="peopleAuto" class="com.sylinx.p7.pojo.autowiretest.PeopleAuto"/>
 </beans>

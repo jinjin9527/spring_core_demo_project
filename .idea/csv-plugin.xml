@@ -73,7 +73,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\07-spring-autowired\src\main\java\com\sylinx\p7\pojo\autowiretest\PeopleAuto.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\07-spring-autowired\src\test\java\com\sylinx\p7\pojo\MyTest7.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\07-spring-autowired\src\test\java\com\sylinx\p7\pojo\MyTest7_2.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />
