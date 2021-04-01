@@ -16,6 +16,11 @@
         <module>05-spring-di</module>
         <module>06-spring-bean-scope</module>
         <module>07-spring-autowired</module>
+        <module>08-spring-annotation</module>
+        <module>09-spring-appconfig</module>
+        <module>10-spring-proxy</module>
+        <module>11-spring-aop-1</module>
+        <module>12-spring-tx</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

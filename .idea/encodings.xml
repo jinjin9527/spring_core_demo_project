@@ -8,5 +8,10 @@
     <file url="file://$PROJECT_DIR$/05-spring-di/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-spring-bean-scope/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07-spring-autowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-spring-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-spring-appconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-spring-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-spring-aop-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-spring-tx/src/main/java" charset="UTF-8" />
   </component>
 </project>

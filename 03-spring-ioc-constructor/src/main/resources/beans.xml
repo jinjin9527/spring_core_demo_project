@@ -19,5 +19,5 @@
 
     <bean id="user4" name="userfour,u4 u44;u444" class="com.sylinx.pojo.User2">
     </bean>
-    <alias name="u1444" alias="user4"/>
+    <alias name="user4" alias="u1444"/>
 </beans>

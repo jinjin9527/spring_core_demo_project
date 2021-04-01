@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- AOP1 -->
+    <bean id="userService_aop1" class="com.sylinx.p11.aop1.service.UserServiceImpl"/>
+
+    <bean id="log" class="com.sylinx.p11.aop1.service.Log"/>
+    <bean id="afterLog" class="com.sylinx.p11.aop1.service.AfterLog" />
+    <aop:config>
+        <!-- pointcut -->
+        <aop:pointcut id="pointcut" expression="execution(* com.sylinx.p11.aop1.service.UserServiceImpl.*(..))"/>
+        <aop:advisor advice-ref="log" pointcut-ref="pointcut"/>
+        <aop:advisor advice-ref="afterLog" pointcut-ref="pointcut"/>
+
+    </aop:config>
+    <!-- AOP2 -->
+    <bean id="userService_aop2" class="com.sylinx.p11.aop2.service.UserServiceImpl"/>
+    <bean id="diy" class="com.sylinx.p11.aop2.service.DiyPointCut"/>
+    <aop:config>
+        <aop:aspect ref="diy">
+            <aop:pointcut id="diypoint" expression="execution(* com.sylinx.p11.aop2.service.UserServiceImpl.*(..))"/>
+            <aop:before method="before" pointcut-ref="diypoint"/>
+            <aop:after method="after" pointcut-ref="diypoint"/>
+        </aop:aspect>
+        
+    </aop:config>
+
+    <!-- AOP3 -->
+    <bean id="userService_aop3" class="com.sylinx.p11.aop3.service.UserServiceImpl"/>
+    <bean id="annotationPointCut" class="com.sylinx.p11.aop3.service.AnnotationPointCut"/>
+
+    <!-- JDK default:false proxy-target-class="false"  true:CGLIB-->
+    <aop:aspectj-autoproxy />
+</beans>

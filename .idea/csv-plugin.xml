@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\01-ioc-preview\src\test\java\com\sylinx\service\MyTest1.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\03-spring-ioc-constructor\src\main\java\com\sylinx\pojo\User.java">
           <value>
             <Attribute>
@@ -11,6 +18,13 @@
           </value>
         </entry>
         <entry key="\03-spring-ioc-constructor\src\test\java\com\sylinx\pojo\MyTest2.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\03-spring-ioc-constructor\src\test\java\com\sylinx\pojo\MyTest3.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />
@@ -87,7 +101,91 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\07-spring-autowired\src\test\java\com\sylinx\p7\pojo\MyTest7_1.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\07-spring-autowired\src\test\java\com\sylinx\p7\pojo\MyTest7_2.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\08-spring-annotation\src\test\java\com\sylinx\p8\MyTest8_1.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\09-spring-appconfig\src\test\java\com\sylinx\p09\MyTest09.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\10-spring-proxy\src\main\java\com\sylinx\p10\proxy01\Client.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\10-spring-proxy\src\main\java\com\sylinx\p10\proxy02\Client.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\10-spring-proxy\src\main\java\com\sylinx\p10\proxy03\Client.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\10-spring-proxy\src\main\java\com\sylinx\p10\proxy04\Client.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\11-spring-aop-1\src\main\resources\applicationContext.xml">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\11-spring-aop-1\src\test\java\com\sylinx\p11\aop1\Mytest11_1.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\11-spring-aop-1\src\test\java\com\sylinx\p11\aop1\Mytest11_2.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\11-spring-aop-1\src\test\java\com\sylinx\p11\aop3\Mytest11_3.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\12-spring-tx\src\test\java\com\sylinx\p12\MyTest12.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />
