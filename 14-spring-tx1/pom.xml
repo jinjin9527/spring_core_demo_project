@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>12-spring-tx</artifactId>
+    <artifactId>14-spring-tx1</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
@@ -55,6 +56,5 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
-
     </build>
 </project>

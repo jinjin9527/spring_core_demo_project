@@ -192,6 +192,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\13-spring-mybatis2\src\main\java\com\sylinx\p13\mapper\UserMapperImpl.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\13-spring-mybatis2\src\test\java\com\sylinx\p13\MyTest13.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\14-spring-tx1\src\main\java\com\sylinx\p14\mapper\UserMapperImpl.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\14-spring-tx1\src\test\java\com\sylinx\p14\MyTest14.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\spring-core\src\test\java\com\sylinx\service\MyTest.java">
           <value>
             <Attribute>
